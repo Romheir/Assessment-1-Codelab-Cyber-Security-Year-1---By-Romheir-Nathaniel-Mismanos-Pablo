@@ -7,12 +7,13 @@ if months_number < 1 or months_number > 12: #this line of code checks if the num
 elif months_number == 2: #this line of code only runs if the input given by the user is not invalid, hence elif statement.
    leap = input("is this a leap year? (yes/no)").lower() #this asks the user if the year is a leap year, the command .lower() allows all types of the word "yes". So meaning it can be "YeS YES yes yEs Yes yES" etc.
    if leap == "yes": #if the user says yes, it prints the following below.
-      print("The month february has approximately 29 days in a leap year.")
+      print("The month february has 29 days in a leap year.")
    else:
-      print("The month february has approximately 28 days.") #if the user answers aything other than a"yes", it simply prints february 28.
+      print("The month february has 28 days.") #if the user answers aything other than a "yes", it simply prints february 28.
 
 else: 
-   print(f"This month has {months[months_number]} days.") #this runs if the month is valid and isnt february, pretty simple. It does this by looking in the months number dictionary we made, then prints how many days it has.
+   print(f"This month has {months[months_number]} days.") #this runs if the month is valid and isn't february, pretty simple. It does this by looking in the months number dictionary we made, then prints how many days it has.
+
 
 
 
