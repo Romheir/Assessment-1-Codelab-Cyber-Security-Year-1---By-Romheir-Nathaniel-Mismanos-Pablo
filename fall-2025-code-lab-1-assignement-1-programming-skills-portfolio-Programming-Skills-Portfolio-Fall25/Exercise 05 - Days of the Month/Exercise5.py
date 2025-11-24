@@ -1,4 +1,4 @@
-months = {1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31} #this creates a dictionary labeled "months", each number from 1 to 12 represents a month, and the value is how many das that month NORMALLY has.
+months = {1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31} #this creates a dictionary labeled "months", each number from 1 to 12 represents a month, and the value is how many days that month NORMALLY has.
 
 months_number = int(input("Please enter a month number from 1-12:")) #this asks the user to type a month number, the number given is stores in the variable months_number
  
@@ -13,6 +13,7 @@ elif months_number == 2: #this line of code only runs if the input given by the 
 
 else: 
    print(f"This month has {months[months_number]} days.") #this runs if the month is valid and isnt february, pretty simple. It does this by looking in the months number dictionary we made, then prints how many days it has.
+
 
 
 
